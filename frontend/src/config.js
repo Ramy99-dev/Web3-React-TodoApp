@@ -80,5 +80,4 @@ export const TODO_LIST_ABI = [
     "signature": "0x560f3192"
   }
 ]
-
-export const TODO_LIST_ADDRESS = '0xBe4d6dC6950Db60dC3FD7a28C235f93CCe32675F';
+export const TODO_LIST_ADDRESS = '0x29fac1FD6060d3B7187F5c32Ef536d555e023A12';

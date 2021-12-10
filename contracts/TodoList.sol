@@ -9,6 +9,8 @@ contract TodoList{
         bool completed ;
     }
 
+   
+
     mapping(uint => Task) public tasks;
     
     constructor()public{
@@ -19,10 +21,15 @@ contract TodoList{
     {
       taskCount ++;
       tasks[taskCount]= Task(taskCount, _content ,false);
+   
     } 
     function deleteTask(uint  index )public
     {
         delete tasks[index];
-        taskCount--;
+        if(taskCount>0)
+        {
+            taskCount--;
+        }
+       
     }
 } 
