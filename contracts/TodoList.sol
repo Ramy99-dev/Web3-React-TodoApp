@@ -20,4 +20,9 @@ contract TodoList{
       taskCount ++;
       tasks[taskCount]= Task(taskCount, _content ,false);
     } 
+    function deleteTask(uint  index )public
+    {
+        delete tasks[index];
+        taskCount--;
+    }
 } 
