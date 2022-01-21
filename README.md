@@ -8,6 +8,7 @@ Simple Todo Dapp
 <img  alt="solidity" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Solidity_logo.svg/1200px-Solidity_logo.svg.png" />
 
 To run locally : 
+- Install Ganache  : https://trufflesuite.com/ganache/
 -  Run  ```npm install``` to install React dependencies .
 
 
